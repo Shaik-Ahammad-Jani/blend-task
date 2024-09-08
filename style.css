@@ -1,0 +1,144 @@
+*{
+    text-decoration: none;
+    /* margin:0;
+    padding: 0; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width: 100%;
+    
+    
+    
+}
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(37, 14, 59);
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+}
+#id2{
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+video{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+#id3{
+    display: flex;
+    width:300px;
+    justify-content: space-between;
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+#id3 a{
+    color: white;
+
+}
+#id1 h1{
+    margin-left: 70px;
+    color: white;
+    font-size: 50px;
+    mix-blend-mode: multiply;
+}
+#id4{
+    width:25%;
+    border: 1px solid;
+} */
+header{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(15, 8, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-bottom: none;
+}
+header .hdiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    mix-blend-mode:screen;
+    -webkit-text-stroke: 5px black;
+}
+.h101{
+    flex: 2;
+    margin-left: 7vh;
+    letter-spacing: 4px;
+}
+.p01{
+    /* flex: 2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    object-fit: cover;
+    width:600px;
+}
+.p01 .a01{
+    padding-left: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    -webkit-text-stroke: 0.3px black;  
+    display: flex;
+    justify-content: space-around; 
+    width: 60px;
+}
+.input01{
+    flex: 1;
+    border: 1px orangered solid; 
+    padding: 3px;
+    background-color:white;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.input01 input{
+    background-color: black;
+    height: 20px;
+    width: 150px;  
+    
+}
+.hvid01{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.container1{
+    display: flex;
+    text-align: center;
+}
+#id4{
+    width:25%;
+    border:1px solid;
+}
+#table{
+    width:75%;
+    border: 1px solid;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(28, 8, 8);
+    color: white;
+    height:250px;
+}
